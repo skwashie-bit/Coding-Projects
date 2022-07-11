@@ -19,7 +19,7 @@ TableName: AuthorsTable_prod
         Enabled: true
 ProvisionedThroughput:
         ReadCapacityUnits: "10"
-        WriteCapacityUnits: "5"
+        WriteCapacityUnits: "10"
 DependsOn:
       - DynamoDBQueryPolicy
   DynamoDBQueryPolicy:
